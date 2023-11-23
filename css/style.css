@@ -1,0 +1,87 @@
+
+header,footer{
+    background: linear-gradient(to right, #df7381, #69d3f0);
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+    width: 95%;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: black;
+}
+
+.div1{  
+    font-family: 'Oswald', sans-serif;
+    font-size:30.555555px;
+    padding-left:25px ;
+    padding-top: 30px;
+    width : 95%;
+    height:auto;
+    background : #B0B0B0;
+    border-radius : 25px;
+    margin: auto;
+    margin-top: 25px;   
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td, th {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    padding: 60px;
+    font-size: 1.5em;
+}
+
+caption{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+}
+
+fieldset{
+    font-family: 'Oswald', sans-serif;
+    background-color: #B0B0B0;
+    margin: auto;
+    width: 95%;
+    border-radius: 25px;
+}
+
+input [type='submit'] {
+    margin-top: 20px;
+    font-size: 1em;
+
+}
+
+legend {
+    background-color: white;
+}
+
+nav{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+}
+
+nav .menu{
+    margin-left: auto;
+}
+
+.menu{
+    text-align: right;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    justify-self: end;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+}
